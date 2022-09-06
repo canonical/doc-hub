@@ -9,7 +9,7 @@ The PR can contain:
   
 The PR process gives us a way to track when reviews are done etc. I would suggest that "Approving" the PR means that the approving contributor is done with their review. 
 
-## Strecth goals and ideas:
+## Stretch goals and ideas:
 
  - make a bot to notify us in the Doc Authors channel when there are reviews waiting
  

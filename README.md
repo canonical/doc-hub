@@ -70,11 +70,11 @@ verify the finalised content.
 **Workflow:**
 
 1. user files an issue
-#. labels applied: <related-tech>
-#. TA assigned
-#. questions asked, issue understood
-#. labels applied: request triaged (or contribution triaged)
-#. content published, issue closed
+1. labels applied: <related-tech>
+1. TA assigned
+1. questions asked, issue understood
+1. labels applied: request triaged (or contribution triaged)
+1. content published, issue closed
 
 ## Provide traditional reviews
 
@@ -98,10 +98,10 @@ The review process is format-agnostic (e.g. text, Markdown, RST).
 **Workflow:**
 
 1. requester opens a PR
-#. labels applied: <related-tech>
-#. TA assigned
-#. review occurs, PR merged
-#. requester assumes responsibility for content
+1. labels applied: <related-tech>
+1. TA assigned
+1. review occurs, PR merged
+1. requester assumes responsibility for content
 
 ## Relocate existing knowledge
 
@@ -116,17 +116,17 @@ content from teams that interface closely with customers.
 **Workflow:**
 
 1. requester opens a PR
-#. labels applied: <related-tech> and relocate
-#. TA assigned
-#. review occurs
-#. relocation happens, PR merged
+1. labels applied: <related-tech> and relocate
+1. TA assigned
+1. review occurs
+1. relocation happens, PR merged
 
 # For Technical Authors
 
 ## Reviewing a PR
 
-Any doc team member can review a PR, but starting a review does not sign you up
-for its eventual approval. Just leave any comments you may have.
+Any TA can review a PR, but starting a review does not sign you up for its
+eventual approval. Just leave any comments you may have.
 
 ## Approving a PR
 

@@ -7,6 +7,10 @@ It acts as a communication channel and tracking system. It does not impose a
 change on how Canonical teams work in terms of documentation. Instead, it adds
 extra capabilities that teams can optionally take advantage of.
 
+Any crucial (e.g. high customer impact) work items should go through an
+alternate channel such as a Roadmap discussion, and which would most likely be
+tracked with Jira instead.
+
 # Use cases
 
 The doc-hub can be used to:
@@ -70,7 +74,7 @@ verify the finalised content.
 **Workflow:**
 
 1. user files an issue
-1. labels applied: <related-tech>
+1. labels applied: `<related-tech>`
 1. TA assigned
 1. questions asked, issue understood
 1. labels applied: request triaged (or contribution triaged)
@@ -79,10 +83,10 @@ verify the finalised content.
 ## Provide traditional reviews
 
 Content can be submitted, including by TAs themselves, as a pull request (PR)
-in order to receive a traditional content review. The requester will be
-responsible for responding to any review commentary and enhancing the content
-as required. They will also be in charge of moving the reviewed content to its
-rightful place for publication purposes.
+in order to receive a traditional documentation content review (not a technical
+review). The requester will be responsible for responding to any review
+commentary and enhancing the content as required. They will also be in charge
+of moving the reviewed content to its rightful place for publication purposes.
 
 The PR description should include guidelines for the prospective reviewer in
 cases where a specific kind of review is being sought, such as:
@@ -98,7 +102,7 @@ The review process is format-agnostic (e.g. text, Markdown, RST).
 **Workflow:**
 
 1. requester opens a PR
-1. labels applied: <related-tech>
+1. labels applied: `<related-tech>`
 1. TA assigned
 1. review occurs, PR merged
 1. requester assumes responsibility for content
@@ -116,7 +120,7 @@ content from teams that interface closely with customers.
 **Workflow:**
 
 1. requester opens a PR
-1. labels applied: <related-tech> and relocate
+1. labels applied: `<related-tech>` and `relocate`
 1. TA assigned
 1. review occurs
 1. relocation happens, PR merged
